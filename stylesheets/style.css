@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+
+html {
+	font-family: 'Arimo', sans-serif;
+}
+
+.top {
+   position: relative;
+   overflow: hidden;
+   background-color: #000;
+   opacity: 0.99;
+   min-height: 500px;
+}
+
+.top:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../images/workstation.jpeg'); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity : 0.8;
+    z-index: -1;
+}
+
+
+.top h1 {
+	opacity: 1;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 7%;
+	font-size: 4em;
+	text-align: center;
+	color: #fff;
+}
+
+.top h2 {
+	font-family: 'Arimo', sans-serif;
+	margin-top: 2%;
+	font-size: 2em;
+	text-align: center;
+	color: #fff;
+	font-weight: -1px;
+
+}
+
+.nav{
+    list-style:none;
+    margin:50px 0;
+    text-align:center;
+}
+
+.nav li{
+    display:inline;
+    background-color: #4bc6a6;
+    opacity: .8;
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.nav a{
+	text-decoration: none;
+    display:inline-block;
+    padding: 30px;
+    margin: 10px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+#about, #contact, #portfolio {
+	background-color: #333;
+}
+
+
+
+.title {
+	background-color: #4bc6a6;
+	opacity: .8;
+	font-family: 'Arimo', sans-serif;
+	font-size: 28px;
+	padding: 10px 0 30px 50px;
+	color: #fff;
+}
+
+.title h2 {
+	margin-top: 10px;
+}
+
+#about img{
+	margin: 80px 0 80px 50px;
+	border-radius: 8px;
+}
+
+
+aside {
+	margin: 80px 80px 80px 50px;
+	width: 60%;
+	float: right;
+	font-family: 'Arimo', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	background-color: #aaaaaa;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+
+
+aside p{
+	margin-bottom: 22px;
+	text-align: justify;
+}
+
+#contact-info {
+	margin: 60px 80px 0px 50px;
+	width: 30%;
+	font-family: 'Arimo', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	background-color: #aaaaaa;
+	padding: 20px;
+	border-radius: 8px;
+
+}
+
+#contact {
+	min-height: 300px;
+}
+
+#contact a {
+	color: #fff;
+}
