@@ -4,6 +4,12 @@ html {
 	font-family: 'Arimo', sans-serif;
 }
 
+h3 {
+	font-size: 1.5em;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
 .top {
    position: relative;
    overflow: hidden;
@@ -28,11 +34,10 @@ html {
     z-index: -1;
 }
 
-
 .top h1 {
 	opacity: 1;
 	font-family: 'Montserrat', sans-serif;
-	margin-top: 7%;
+	margin-top: 1%;
 	font-size: 4em;
 	text-align: center;
 	color: #fff;
@@ -50,14 +55,13 @@ html {
 
 .nav{
     list-style:none;
-    margin:50px 0;
     text-align:center;
 }
 
 .nav li{
     display:inline;
     background-color: #4bc6a6;
-    opacity: .8;
+    opacity: .9;
     border-radius: 8px;
     padding: 5px;
     margin-right: 5px;
@@ -72,6 +76,10 @@ html {
     font-family: 'Arimo', sans-serif;
     font-size: 20px;
     color: #fff;
+}
+
+.nav li:hover {
+	background-color: #40ad90;
 }
 
 #about, #contact, #portfolio {
@@ -102,46 +110,79 @@ html {
 	max-width: 300px;
 	float: left;
 	display: block;
+	box-shadow: 2px 2px 2px #555;
 }
 
 
 aside {
-	/*position: relative;*/
-	margin: 80px 80px 80px 50px;
+	margin-top: 100px;
+	margin-left: 100px;
 	width: 60%;
 	float: left; 
 	display: block;
 	font-family: 'Arimo', sans-serif;
 	font-size: 20px;
 	line-height: 30px;
-	background-color: #aaaaaa;
-	padding: 20px;
 	border-radius: 8px;
+	color: #fff;
 }
-
 
 aside p{
-	margin-bottom: 22px;
-	text-align: justify;
+	text-align: right;
+	line-height: 150%;
+	margin-bottom: 32px;
 }
 
-
-#slider {
-	position: relative;
-	width: 50%;
-	margin: auto;
-	padding-top: 10px;
+.row {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: flex-start;
+    color: #fff;
 }
 
+.item {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   margin: 10px;
+}
+
+.media-el {
+	width: auto;
+	max-height: 500px;
+	margin: 0 auto 0 auto;
+}
+
+.media-el img{
+	height: 550px;
+	margin: 10px 2px; 
+}
+
+.media-txt {
+	margin: 10px 2px;
+	height: 530px;
+	max-width: 300px;
+	margin-left: 8px;
+	background-color: #444;
+	padding: 10px;
+	line-height: 150%;
+	font-size: 1.1em;
+}
+
+.media-txt h3 {
+	margin-bottom: 30px;
+}
 
 #contact-info {
-	margin: 60px 80px 0px 50px;
+	margin: 60px 80px 60px 50px;
 	width: 30%;
 	min-width: 250px;
 	font-family: 'Arimo', sans-serif;
 	font-size: 20px;
 	line-height: 30px;
-	background-color: #aaaaaa;
 	padding: 20px;
 	border-radius: 8px;
 
@@ -149,4 +190,7 @@ aside p{
 
 #contact-info a {
 	color: #fff;
+	margin-bottom: 30px;
 }
+
+
