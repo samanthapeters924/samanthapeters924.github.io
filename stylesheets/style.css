@@ -121,7 +121,7 @@ aside {
 	float: left; 
 	display: inline-block;
 	font-family: 'Arimo', sans-serif;
-	font-size: 20px;
+	font-size: 1.3em;
 	line-height: 30px;
 	border-radius: 8px;
 	color: #fff;
@@ -157,13 +157,13 @@ aside p{
 }
 
 .media-el img{
-	height: 550px;
+	height: 500px;
 	margin: 10px 2px; 
 }
 
 .media-txt {
 	margin: 10px 2px;
-	height: 530px;
+	height: 480px;
 	max-width: 300px;
 	margin-left: 8px;
 	background-color: #444;
