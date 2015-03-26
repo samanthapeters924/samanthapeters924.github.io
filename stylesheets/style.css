@@ -92,7 +92,6 @@ h3 {
 
 .title {
 	background-color: #4bc6a6;
-	opacity: .8;
 	font-family: 'Arimo', sans-serif;
 	font-size: 28px;
 	padding: 10px 0 30px 50px;
@@ -135,7 +134,7 @@ aside p{
 
 .row {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content:center;
     align-items: flex-start;
@@ -143,11 +142,9 @@ aside p{
 }
 
 .item {
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   margin: 10px;
+	display: flex;
+	flex-direction: row;
+    margin: 10px auto;
 }
 
 .media-el {
@@ -164,7 +161,7 @@ aside p{
 .media-txt {
 	margin: 10px 2px;
 	height: 480px;
-	max-width: 300px;
+	max-width: 290px;
 	margin-left: 8px;
 	background-color: #444;
 	padding: 10px;
