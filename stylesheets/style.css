@@ -132,6 +132,13 @@ aside p{
 	margin-bottom: 32px;
 }
 
+aside a{
+	background-color: #4bc6a6;
+	color: #fff;
+	padding: .5rem 1rem;
+	border-radius: 8px;
+}
+
 .row {
     display:flex;
     flex-direction: column;
@@ -145,6 +152,7 @@ aside p{
 	display: flex;
 	flex-direction: row;
     margin: 10px auto;
+    background-color: #444;
 }
 
 .media-el {
@@ -155,16 +163,13 @@ aside p{
 
 .media-el img{
 	height: 500px;
-	margin: 10px 2px; 
 }
 
 .media-txt {
 	margin: 10px 2px;
-	height: 480px;
 	max-width: 290px;
 	margin-left: 8px;
-	background-color: #444;
-	padding: 10px;
+	padding: 12px;
 	line-height: 150%;
 	font-size: 1.1em;
 }
